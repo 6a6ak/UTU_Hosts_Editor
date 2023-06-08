@@ -26,7 +26,6 @@ else
 
     echo "Domain has been added to the hosts file."
 fi
-
 # Flush DNS cache
 if ps aux | grep -q '[n]scd'; then
     echo "Flushing nscd cache"
